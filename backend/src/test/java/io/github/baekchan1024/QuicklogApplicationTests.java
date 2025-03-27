@@ -1,4 +1,4 @@
-package io.github.baekchan1024.quicklog;
+package io.github.baekchan1024;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

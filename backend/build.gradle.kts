@@ -19,6 +19,7 @@ repositories {
 
 dependencies {
 	implementation(project(":user"))
+	implementation(project(":message"))
 	implementation("org.springframework.boot:spring-boot-starter")
 }
 
@@ -37,6 +38,8 @@ subprojects {
 		implementation("org.springframework.boot:spring-boot-starter-actuator")
 		testImplementation("org.springframework.boot:spring-boot-starter-test")
 		testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+		compileOnly("org.projectlombok:lombok")
+		annotationProcessor("org.projectlombok:lombok")
 	}
 
 	tasks.withType<Test> {

@@ -1,4 +1,4 @@
-package io.github.baekchan1024.quicklog;
+package io.github.baekchan1024;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
